@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+:root {
+    --primary: #4b6cb7;
+    --secondary: #182848;
+
+    --white: #ffffff;
+
+    --gray-light: #979797;
+    --gray-dark: #343a40;
+
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+
+    --mb: 576px;
+    --tb: 768px;
+    --nb: 992px;
+    --dt: 1200px;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+@import "./grids/container.css";
+@import "./grids/helpers.css";
+@import "./grids/grid.css";
+
+@import "./elements/cards.css";
+@import "./elements/tables.css";
+@import "./elements/buttons.css";
+@import "./elements/notification.css";
+@import "./elements/typography.css";
+
+@import "./forms/inputs.css";
+@import "./forms/selects.css";

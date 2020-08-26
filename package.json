@@ -1,0 +1,23 @@
+{
+  "name": "thor-kit-css",
+  "version": "1.0.0",
+  "description": "THOR KIT CSS",
+  "keywords": [
+    "css",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thiago de Oliveira Rodrigues",
+  "license": "MIT",
+  "files": [
+    "dist/{css}/*.{css}",
+    "scss/**/*.scss"
+  ]
+}

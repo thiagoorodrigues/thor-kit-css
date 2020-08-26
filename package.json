@@ -10,14 +10,18 @@
     "framework",
     "web"
   ],
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "style": "dist/style.css",
+  "files": [
+    "dist/{css}/*.{css}"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagoorodrigues/thor-kit-css.git"
   },
   "author": "Thiago de Oliveira Rodrigues",
-  "license": "MIT",
-  "files": [
-    "dist/{css}/*.{css}",
-    "scss/**/*.scss"
-  ]
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagoorodrigues/thor-kit-css/issues"
+  },
+  "homepage": "https://github.com/thiagoorodrigues/thor-kit-css#readme"
 }

@@ -10,10 +10,6 @@
     "framework",
     "web"
   ],
-  "style": "dist/style.css",
-  "files": [
-    "dist/{css}/*.{css}"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thiagoorodrigues/thor-kit-css.git"
